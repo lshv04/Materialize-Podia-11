@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+:root {
+    --color1: #1a1715;
+    --color2: #4b2aad;
+    --color3: #351e7a;
+    --color4:#9c8881;
+    --color5:#5c5856;
+    --font-18px: 1.25rem;
+    --font-16px: 1rem;
+}
+h3{
+    color:var(--color4);
+    font-size:var(--font-16px);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.linkstyle {
+    font-size:var(--font-16px);
+    text-decoration: none;
+    color:var(--color5);
+    font-weight: 400;
+
+}
+.linkstyle:hover{
+   
+    color:var(--color2);
+
+}
+.dropd1 li, .dropd2 li{
+    margin-bottom: 1rem;;
+}
+
+/* navbar */
+nav {
+
+    border: 2px solid black;
+}
+
+.naval {
+  
+    padding-left: 6.5rem !important;
+    
+
+
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.naval a,
+.naval2 a,
+.sidenav a,
+.sidenav-trigger {
+
+   
+    color: var(--color1);
+    font-size: var(--font-18px);
+    font-weight: 400;
+    border-radius:30px;
+    height: 40px !important;
+    display: flex;
+   
+    align-items: center;
+    
+   
+}
+
+
+.contself {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.brand-logo {
+
+    color: var(--color2) !important;
+    font-weight: 700;
+
+}
+.brand-logo:hover {
+
+    color: var(--color3)!important;
+   
+
+}
+
+.but1{
+    color: #fff !important;
+    background-color: var(--color2);
+    font-weight: 700 !important;
+    margin-left: 0.5rem;
+
+    
+}
+.but1:hover{
+    background-color:var(--color3)
+}
+
+.but1nav{
+    color: #fff !important;
+    background-color: var(--color2);
+    font-weight: 700 !important;
+    margin-left: 0.5rem;
+    display:flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    
+}
+
+.dropd{
+    display: flex;
+    border:1px solid var(--color4);
+    width: fit-content;
+    gap:3rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.dropd1{
+    border-right: 1px solid var(--color4);
+    padding-right: 1rem;
+}
+@media(max-width: 992px) {
+    .nav-wrapper{
+    
+        justify-content:flex-start;
+        flex-direction: row-reverse;
+    }
+ 
+}
