@@ -27,19 +27,32 @@ h3{
 }
 
 .linkstyle {
-    font-size:var(--font-16px);
+    font-size:var(--font-16px) !important;
     text-decoration: none;
-    color:var(--color5);
+    color:var(--color5) !important;
     font-weight: 400;
+    padding: 0 !important;
+   
 
 }
 .linkstyle:hover{
    
-    color:var(--color2);
+    color:var(--color2) !important;
+    background-color: transparent !important;
 
 }
 .dropd1 li, .dropd2 li{
-    margin-bottom: 1rem;;
+    margin-bottom: 0.5rem;
+}
+.dropd1 li, .dropd2 li:hover{
+  
+    background-color:#fff !important;
+
+   
+}
+.contself {
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* navbar */
@@ -80,10 +93,7 @@ nav {
 }
 
 
-.contself {
-    width: 90%;
-    margin: 0 auto;
-}
+
 
 .brand-logo {
 
@@ -127,7 +137,7 @@ nav {
     border:1px solid var(--color4);
     width: fit-content;
     gap:3rem;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 8px;
 }
 
@@ -135,6 +145,26 @@ nav {
     border-right: 1px solid var(--color4);
     padding-right: 1rem;
 }
+
+
+
+.drop3:hover{
+    background-color: #fff !important;
+}
+#dropdown1,#dropdown2,#dropdown3,#dropdown4 {
+    width: fit-content !important;
+}
+
+.dropdown-content li{
+    min-height: auto !important;
+}
+
+
+.bord{
+    border:1px solid black;
+    height: 100px;
+}
+
 @media(max-width: 992px) {
     .nav-wrapper{
     
