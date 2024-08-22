@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--colorbg);
    
 }
 img{
@@ -14,22 +15,74 @@ img{
     
 }
 :root {
+    --colorbg:#fdfbf9;
     --color1: #1a1715;
     --color2: #4b2aad;
     --color3: #351e7a;
     --color4:#9c8881;
     --color5:#5c5856;
+    --color6:#f5efeb;
     --font-18px: 1.25rem;
     --font-16px: 1rem;
     --font-43px: 2.9rem;
     --font-32px: 2rem;
 
 }
+.p1 {
+    color:var(--color4);
+    font-size: var(--font-16px);
+    font-weight: 500;
+    margin: 0;
+}
+.p2{
+    color:var(--color5);
+    font-size: var(--font-18px);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.p21{
+    color:var(--color5);
+    font-size: var(--font-16px);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.h21{
+    margin: 0;
+    color:var(--color1);
+    line-height: 4.5rem;
+    font-size: var(--font-43px);
+    font-weight: 700;
+}
 h3{
     color:var(--color4);
     font-size:var(--font-16px);
     font-weight: 500;
     text-transform: uppercase;
+}
+.h22{
+    margin: 0;
+    color:var(--color1);
+    line-height: 2rem;
+    font-size: var(--font-32px);
+    font-weight:600;
+    text-align: center;
+}
+.h23{
+    margin: 0;
+    color:var(--color1);
+    line-height: 1.5rem;
+    font-size: var(--font-18px);
+    font-weight:500;
+    text-align: center;
+
+}
+.h24{
+    margin: 0;
+    color:var(--color1);
+    line-height: 3rem;
+    font-size: var(--font-32px);
+    font-weight:500;
+    
 }
 
 .linkstyle {
@@ -57,7 +110,7 @@ h3{
    
 }
 .contself {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -167,35 +220,19 @@ h3{
 }
 
 
-/* .bord{
+.bord{
     border:1px solid black;
+   
     
     
-} */
+}
 
 /* header */
 header{
 margin-top: 8rem !important;
+margin-bottom: 8rem !important;
 }
-.p1 {
-    color:var(--color4);
-    font-size: var(--font-16px);
-    font-weight: 500;
-    margin: 0;
-}
-.p2{
-    color:var(--color5);
-    font-size: var(--font-18px);
-    font-weight: 500;
-    margin-bottom: 2rem;
-}
-.h21{
-    margin: 0;
-    color:var(--color1);
-    line-height: 4.5rem;
-    font-size: var(--font-43px);
-    font-weight: 600;
-}
+
 .cont0{
     display: flex;
     align-items: center;
@@ -208,6 +245,58 @@ margin-top: 8rem !important;
 .headercont1 img{
     border-radius: 8px;
 }
+/* main */
+
+
+
+.icondiv{
+    border-radius:50% ;
+    background-color: var(--color6) ;
+    height: 45px ;
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    margin-bottom: 1rem;
+
+    
+
+}
+.icondiv i{
+color:var(--color4);
+cursor: default;
+}
+.secicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-align a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color2); /* Cor inicial do link e do ícone */
+    text-decoration: none; /* Remove o sublinhado do link */
+    transition: color 0.3s ease; /* Transição suave para a cor */
+    font-size: var(--font-18px);
+}
+
+.icon-move {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease; /* Transição suave para o movimento e cor */
+}
+
+.icon-align a:hover {
+    color: var(--color3); /* Nova cor do link e do ícone ao passar o mouse */
+}
+
+.icon-align a:hover .icon-move {
+    transform: translateX(8px); /* Move o ícone 8px para a direita */
+    color:var(--color3); /* Nova cor do ícone ao passar o mouse */
+}
+
+
 
 @media(max-width: 992px) {
     .nav-wrapper{
@@ -228,6 +317,7 @@ margin-top: 8rem !important;
     }
     header{
         margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
     }
     .h21{
         font-size: var(--font-32px);
