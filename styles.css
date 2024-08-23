@@ -8,107 +8,125 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--colorbg);
-   
+
 }
-img{
+
+img {
     max-width: 100%;
-    
+
 }
+
 :root {
-    --colorbg:#fdfbf9;
+    --colorbg: #fdfbf9;
     --color1: #1a1715;
     --color2: #4b2aad;
     --color3: #351e7a;
-    --color4:#9c8881;
-    --color5:#5c5856;
-    --color6:#f5efeb;
+    --color4: #9c8881;
+    --color5: #5c5856;
+    --color6: #f5efeb;
+    --color7: gold;
     --font-18px: 1.25rem;
     --font-16px: 1rem;
     --font-43px: 2.9rem;
     --font-32px: 2rem;
 
 }
+
 .p1 {
-    color:var(--color4);
+    color: var(--color4);
     font-size: var(--font-16px);
     font-weight: 500;
     margin: 0;
 }
-.p2{
-    color:var(--color5);
+
+.p2 {
+    color: var(--color5);
     font-size: var(--font-18px);
     font-weight: 400;
     margin-bottom: 2rem;
 }
-.p21{
-    color:var(--color5);
+
+.p21 {
+    color: var(--color5);
     font-size: var(--font-16px);
     font-weight: 400;
     margin-bottom: 2rem;
 }
-.h21{
+
+.h21 {
     margin: 0;
-    color:var(--color1);
+    color: var(--color1);
     line-height: 4.5rem;
     font-size: var(--font-43px);
     font-weight: 700;
 }
-h3{
-    color:var(--color4);
-    font-size:var(--font-16px);
+
+h3 {
+    color: var(--color4);
+    font-size: var(--font-16px);
     font-weight: 500;
     text-transform: uppercase;
 }
-.h22{
+
+.h22 {
     margin: 0;
-    color:var(--color1);
+    color: var(--color1);
     line-height: 2rem;
     font-size: var(--font-32px);
-    font-weight:600;
+    font-weight: 600;
     text-align: center;
 }
-.h23{
+
+.h23 {
     margin: 0;
-    color:var(--color1);
+    color: var(--color1);
     line-height: 1.5rem;
     font-size: var(--font-18px);
-    font-weight:500;
+    font-weight: 500;
     text-align: center;
 
 }
-.h24{
+
+.h24 {
     margin: 0;
-    color:var(--color1);
+    color: var(--color1);
     line-height: 3rem;
     font-size: var(--font-32px);
-    font-weight:500;
-    
+    font-weight: 500;
+    text-align: left;
+
 }
 
 .linkstyle {
-    font-size:var(--font-16px) !important;
+    font-size: var(--font-16px) !important;
     text-decoration: none;
-    color:var(--color5) !important;
+    color: var(--color5) !important;
     font-weight: 400;
     padding: 0 !important;
-   
+
 
 }
-.linkstyle:hover{
-   
-    color:var(--color2) !important;
+
+.linkstyle:hover {
+
+    color: var(--color2) !important;
     background-color: transparent !important;
 
 }
-.dropd1 li, .dropd2 li{
+
+.dropd1 li,
+.dropd2 li {
     margin-bottom: 0.5rem;
 }
-.dropd1 li, .dropd2 li:hover{
-  
-    background-color:#fff !important;
 
-   
+.dropd1 li,
+.dropd2 li:hover {
+
+    background-color: #fff !important;
+
+
 }
+
 .contself {
     width: 85%;
     margin: 0 auto;
@@ -118,13 +136,14 @@ h3{
 
 
 .naval {
-  
+
     padding-left: 6.5rem !important;
-    
+
 
 
 }
-.nav-wrapper{
+
+.nav-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,17 +154,17 @@ h3{
 .sidenav a,
 .sidenav-trigger {
 
-   
+
     color: var(--color1);
     font-size: var(--font-18px);
     font-weight: 400;
-    border-radius:30px;
+    border-radius: 30px;
     height: 40px !important;
     display: flex;
-   
+
     align-items: center;
-    
-   
+
+
 }
 
 
@@ -157,92 +176,100 @@ h3{
     font-weight: 700;
 
 }
+
 .brand-logo:hover {
 
-    color: var(--color3)!important;
-   
+    color: var(--color3) !important;
+
 
 }
 
-.but1{
+.but1 {
     color: #fff !important;
     background-color: var(--color2);
     font-weight: 700 !important;
-   
+
     border-radius: 30px;
     height: 40px;
     padding: 8px 16px;
     font-size: var(--font-18px);
 
-    
-}
-.but1:hover{
-    background-color:var(--color3)
+
 }
 
-.but1nav{
+.but1:hover {
+    background-color: var(--color3)
+}
+
+.but1nav {
     color: #fff !important;
     background-color: var(--color2);
     font-weight: 700 !important;
     margin-left: 0.5rem;
-    display:flex !important;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     margin: 0 1rem;
-    
+
 }
 
-.dropd{
+.dropd {
     display: flex;
-    border:1px solid var(--color4);
+    border: 1px solid var(--color4);
     width: fit-content;
-    gap:3rem;
+    gap: 3rem;
     padding: 1rem;
     border-radius: 8px;
 }
 
-.dropd1{
+.dropd1 {
     border-right: 1px solid var(--color4);
     padding-right: 1rem;
 }
 
 
 
-.drop3:hover{
+.drop3:hover {
     background-color: #fff !important;
 }
-#dropdown1,#dropdown2,#dropdown3,#dropdown4 {
+
+#dropdown1,
+#dropdown2,
+#dropdown3,
+#dropdown4 {
     width: fit-content !important;
 }
 
-.dropdown-content li{
+.dropdown-content li {
     min-height: auto !important;
 }
 
 
-.bord{
-    border:1px solid black;
-   
-    
-    
+.bord {
+    border: 1px solid black;
+
+
+
 }
 
 /* header */
-header{
-margin-top: 8rem !important;
-margin-bottom: 8rem !important;
+header {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
 }
 
-.cont0{
+.cont0 {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.headercont1{
-    padding:4rem !important;
+
+.headercont1 {
+    padding: 4rem !important;
 }
-.headercont1 img{
+
+.headercont1 img {
     border-radius: 8px;
 }
 
@@ -257,81 +284,159 @@ margin-bottom: 8rem !important;
 
 
 
-.icondiv{
-    border-radius:50% ;
-    background-color: var(--color6) ;
-    height: 45px ;
-    width:45px;
+.icondiv {
+    border-radius: 50%;
+    background-color: var(--color6);
+    height: 45px;
+    width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 0;
     margin-bottom: 1rem;
 
-    
+
 
 }
-.icondiv i{
-color:var(--color4);
-cursor: default;
+
+.icondiv i {
+    color: var(--color4);
+    cursor: default;
 }
-.secicon{
+
+.secicon {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .icon-align a {
     display: inline-flex;
     align-items: center;
-    color: var(--color2); /* Cor inicial do link e do ícone */
-    text-decoration: none; /* Remove o sublinhado do link */
-    transition: color 0.3s ease; /* Transição suave para a cor */
+    color: var(--color2);
+    text-decoration: none;
+    transition: color 0.3s ease;
     font-size: var(--font-18px);
 }
 
 .icon-move {
     display: inline-block;
-    transition: transform 0.3s ease, color 0.3s ease; /* Transição suave para o movimento e cor */
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .icon-align a:hover {
-    color: var(--color3); /* Nova cor do link e do ícone ao passar o mouse */
+    color: var(--color3);
 }
 
 .icon-align a:hover .icon-move {
-    transform: translateX(8px); /* Move o ícone 8px para a direita */
-    color:var(--color3); /* Nova cor do ícone ao passar o mouse */
+    transform: translateX(8px);
+    color: var(--color3);
 }
 
 
 
+
+
+.contchange {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.div1 {
+    flex: 1 1 100%;
+    box-sizing: border-box;
+}
+
+
+.div2,
+.div3 {
+    flex: 1 1 50%;
+
+    box-sizing: border-box;
+}
+
+.starsicon {
+    color: var(--color7);
+
+
+}
+
+blockquote {
+    border-left: none;
+    ;
+    padding: 0 5rem;
+
+
+}
+
+blockquote footer {
+    color: var(--color4);
+    font-size: var(--font-18px);
+}
+
+.seccard {
+    margin: 5rem 0;
+}
+
+.startmargin {
+    margin-bottom: 3rem;
+}
+
 @media(max-width: 992px) {
-    .nav-wrapper{
-    
-        justify-content:flex-start;
+    .nav-wrapper {
+
+        justify-content: flex-start;
         flex-direction: row-reverse;
     }
- 
+
+    .contchange {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+
+    .div2 {
+        flex: 1 1 100%;
+        order: 3;
+    }
+
+
+    .div1 {
+        order: 3;
+    }
+
+    blockquote {
+        padding: 0;
+    }
+
 }
 
 @media(max-width: 768px) {
-    .cont0{
+    .cont0 {
         flex-direction: column-reverse;
-       
+
     }
-    .headercont1{
-        padding:0 !important;
+
+    .headercont1 {
+        padding: 0 !important;
     }
-    header{
+
+    header {
         margin-top: 3rem !important;
         margin-bottom: 3rem !important;
     }
-    .h21{
+
+    .h21 {
         font-size: var(--font-32px);
         line-height: var(--font-32px);
     }
-    .headercont{
-        margin-top:var(--font-32px) ;
+
+    .headercont {
+        margin-top: var(--font-32px);
     }
+
+
 }
