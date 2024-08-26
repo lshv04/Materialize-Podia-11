@@ -28,9 +28,10 @@ img {
     --color8: #201445;
     --color9: #d7d2e8;
     --color10: #9484c6;
-    --color11:#f5efeb;
-    --font-18px: 1.25rem;
+    --color11: #f5efeb;
+    --font-14px: 14px;
     --font-16px: 1rem;
+    --font-18px: 1.25rem;
     --font-43px: 2.9rem;
     --font-32px: 2rem;
 
@@ -89,7 +90,7 @@ h3 {
     text-align: center;
 }
 
-.h22 {
+.h25 {
     margin: 0;
     color: #fff;
     line-height: 2rem;
@@ -154,6 +155,17 @@ h3 {
 }
 
 /* navbar */
+.navcont {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10px;
+    background-color: var(--colorbg);
+    z-index: 1000;
+    transition: box-shadow 0.3s ease;
+}
+
 .naval {
     padding-left: 6.5rem !important;
 }
@@ -162,6 +174,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .naval a,
@@ -177,7 +191,9 @@ h3 {
     align-items: center;
 }
 
-
+.navbar-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 
 .brand-logo {
@@ -219,6 +235,30 @@ h3 {
 
 
 
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color2);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.fixed-button:hover {
+    background-color: var(--color3)
 }
 
 .but2:hover {
@@ -275,7 +315,7 @@ h3 {
 
 .bord {
     border: 1px solid black;
-    
+
 
 
 }
@@ -303,7 +343,10 @@ header {
 
 
 
-
+.quotefooter {
+    font-size: var(--font-14px);
+    color: var(--color5);
+}
 
 
 
@@ -376,6 +419,7 @@ header {
 .div1 {
     flex: 1 1 100%;
     box-sizing: border-box;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -420,40 +464,109 @@ blockquote footer {
     text-align: center;
     padding: 4rem;
 }
+
 /* footer */
-footer{
+footer {
     background-color: var(--color11);
 }
-.footcont{
+
+.footcont {
     margin-top: 5rem;
-    padding:5rem 0;
-    
+    padding: 5rem 0;
+
 }
-.footul{
+
+.footul {
     display: flex;
     align-items: center;
     margin: 0;
-   
+
 }
-.footul li{
+
+.footul li {
     margin-right: 1rem;
 }
-.footul p{
+
+.footul p {
     font-size: var(--font-18px);
-    color:var(--color1);
+    color: var(--color1);
     font-weight: 600;
     margin: 0.5rem;
 
 }
-.footul a{
+
+.footerlink {
     font-size: var(--font-18px);
-    color:var(--color5);
+    color: var(--color5);
     font-weight: 400;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
-.footul a:hover{
-    color:var(--color2);
+
+.footerlink:hover {
+    color: var(--color2);
+}
+
+.labs {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.labs p {
+    font-size: var(--font-14px);
+    color: var(--color5);
+}
+
+.labs a {
+    font-size: var(--font-14px);
+}
+
+.footcont1 {
+    margin-top: 5rem;
+    padding: 5rem 0;
+}
+
+.collapsible-header {
+    justify-content: space-between;
+    background-color: var(--color11);
+    border: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.collapsible {
+    box-shadow: none;
+    border: none;
+}
+
+.collapsible-body {
+    border: none;
+    padding: 0;
+}
+
+.foottitle {
+    font-size: var(--font-18px);
+    color: var(--color1);
+    font-weight: 600;
+}
+
+.foottitle i {
+
+    font-weight: 600;
+}
+
+.foottitle:hover {
+    color: var(--color2);
+}
+
+
+@media(min-width: 993px) {
+    .footcont1 {
+        display: none;
+    }
 }
 
 @media(max-width: 992px) {
@@ -483,10 +596,23 @@ footer{
         padding: 0;
     }
 
+    .footcont {
+        display: none;
+    }
+
     .foot1 {
         padding: 2rem;
     }
 
+    .footul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .labs {
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 768px) {
@@ -500,7 +626,7 @@ footer{
     }
 
     header {
-        margin-top: 3rem !important;
+        margin-top: 9rem !important;
         margin-bottom: 3rem !important;
     }
 
