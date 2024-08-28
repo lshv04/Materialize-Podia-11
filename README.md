@@ -8,13 +8,13 @@
 
 Este projeto é um site de portfólio pessoal desenvolvido com o objetivo de clonar a página da "Podia", proposto no site [Frontend Practice](https://www.frontendpractice.com/projects/podia)  a fim de praticar diferentes técnicas de desenvolvimento web.  
 
-Nesse projeto, foquei em utilizar um novo framework para expandir meus conhecimentos. No caso, o escolhido foi o Materialize. Apesar de ser mais custoso de acrescentar componentes e faze-los funcionar de forma correta, fiquei positivamente surpreso com a facilidade de customizar os mesmos. 
+Nesse projeto, foquei em utilizar um novo framework para expandir meus conhecimentos. No caso, o escolhido foi o Materialize. Apesar de ser mais custoso acrescentar componentes e fazê-los funcionar de forma correta, fiquei positivamente surpreso com a facilidade de customizá-los.
 
-Como de costume, tomei cuidado para criar classes e variaveis reutilizaveis para facilitar manutenção e verbosidade do código.
+Como de costume, tomei cuidado para criar classes e variáveis reutilizáveis para facilitar a manutenção e a legibilidade do código.
 
-Além do tradicional script para fazer os componentes rodarem normalmente, também fiz um pequeno código em JS para criar um shadow-box a partir de rolagem da tela.
+Além do tradicional script para fazer os componentes funcionarem normalmente, também fiz um pequeno código em JS para criar um shadow-box a partir da rolagem da tela.
 
-Tive mais uma chance de criar um footer que modifica por completo em telas menores, fiquei bem satisfeito com o resultado.
+Tive mais uma chance de criar um footer que se modifica completamente em telas menores e fiquei bem satisfeito com o resultado.
 
 ## ✔️ Técnicas e tecnologias utilizadas  
 **HTML5**: Para a marcação semântica do conteúdo.  
