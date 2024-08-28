@@ -1,4 +1,5 @@
 
+![Blue Futuristic Technology Presentation (24)](https://github.com/user-attachments/assets/66226e24-9a11-4a84-a3b9-d7fc24ced694)
 
 
 
@@ -25,6 +26,13 @@ Tive mais uma chance de criar um footer que modifica por completo em telas menor
 **Javascript**  : Iniciar componentes do Materialize e criar pequenos efeitos.  
 
   
+
+![image](https://github.com/user-attachments/assets/83887a06-4856-454e-aa99-cd87d15de56e)  
+![image](https://github.com/user-attachments/assets/9ebddbb8-f261-4899-a5b2-03b19603b507)  
+![image](https://github.com/user-attachments/assets/c115e5bd-e745-4727-991e-7e458e9a8cb7)  
+![image](https://github.com/user-attachments/assets/295fd535-04bd-439c-90ee-219fb24bb973)  
+
+
 
 
 
